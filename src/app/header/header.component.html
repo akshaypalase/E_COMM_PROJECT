@@ -1,0 +1,22 @@
+<div class="nav-bar">
+  <h1><a routerLink="">E_COMM</a></h1>
+  <div *ngIf="menuType==='default'" class="textserach">
+    <input type="text" placeholder="serach text here">
+    <button>Search</button>
+  </div>
+  <div [ngSwitch]="menuType">
+    <ul *ngSwitchCase="'default'">
+      <li><a routerLink="">Home</a></li>
+      <li><a routerLink="seller-auth">Seller</a></li>
+      <li><a routerLink="">Login</a></li>
+      <li><a routerLink="">Cart(0)</a></li>
+    </ul>
+    <ul *ngSwitchCase="'seller'">
+      <li><a routerLink="seller-add-product">Add product</a></li>
+      <li><a routerLink="/seller-home">List</a></li>
+      <li><a (click)="logout()">Logout</a></li>
+      <li><a routerLink="">{{sellername | titlecase}}</a></li>
+
+    </ul>
+  </div>
+</div>

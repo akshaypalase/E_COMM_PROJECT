@@ -1,0 +1,57 @@
+body {
+  margin-left: 5%;
+  margin-right: 5%;
+}
+
+.nav-bar {
+  display: flex;
+  justify-content: space-between;
+}
+
+.nav-bar h1 {
+  color: blueviolet;
+  margin-top: 0;
+  font-size: 40px;
+}
+
+.nav-bar ul {
+  color: blueviolet;
+  list-style-type: none;
+  display: inline-flex;
+  margin: 0;
+  padding: 0;
+
+}
+
+.nav-bar li {
+  padding-left: 15px;
+  padding-top: 15px
+}
+
+.nav-bar .textserach {
+  margin-top: 5px;
+  flex: 1;
+  display: flex;
+  margin-left: 5%;
+  margin-right: 5%;
+}
+
+.nav-bar .textserach input {
+  flex: 1;
+  color: blueviolet;
+  border: 1px solid blueviolet;
+  height: 35px;
+  border-right: 0px;
+}
+
+.nav-bar .textserach button {
+  color: blueviolet;
+  border: 1px solid blueviolet;
+  height: 39px;
+  border-left: 0px;
+}
+
+h1 a{
+  color: blueviolet;
+  text-decoration: none;
+}

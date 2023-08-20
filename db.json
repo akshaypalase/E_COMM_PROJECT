@@ -1,0 +1,69 @@
+{
+  "seller": [
+    {
+      "name": "akshay palase",
+      "email": "akshaypalase6@gmail.com",
+      "password": "akshay123",
+      "id": 1
+    },
+    {
+      "name": "akshay palase",
+      "email": "akshaypalase6@gmail.com",
+      "password": "akshay123",
+      "id": 2
+    },
+    {
+      "name": "akshay",
+      "password": "akshay@",
+      "email": "akshay@test.com",
+      "id": 3
+    },
+    {
+      "name": "akshay",
+      "password": "akshay2",
+      "email": "akrnf.com",
+      "id": 4
+    },
+    {
+      "name": "swapnil",
+      "password": "Swapnil@123",
+      "email": "swapnilpalase3@gmail.com",
+      "id": 5
+    }
+  ],
+  "products": [
+    {
+      "name": "realme-narzo",
+      "price": 140000,
+      "color": "blue",
+      "id": 1
+    },
+    {
+      "name": "realme narzo",
+      "price": "14000",
+      "category": "mobile",
+      "color": "blue",
+      "description": "good product",
+      "image": "monvofnv",
+      "id": 2
+    },
+    {
+      "name": "realme narzo",
+      "price": "15000",
+      "category": "mobile",
+      "color": "blue",
+      "description": "good",
+      "image": "jnln",
+      "id": 3
+    },
+    {
+      "name": "",
+      "price": "",
+      "category": "",
+      "color": "",
+      "description": "",
+      "image": "",
+      "id": 4
+    }
+  ]
+}
